@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="tabviz.css">
+    <script src="tabviz.js"></script>
+    <title>Tabbed Visualisation</title>
+</head>
+<body>
+
+<ul class="tab">
+  <li><a href="#" onclick="openTab(event, 'tab1Div')" class="tablinks active">Pre-disaster Indicators Dashboard</a></li>
+  <li><a href="#" onclick="openTab(event, 'tab2Div')" class="tablinks">2016 Mindanao 3W (2nd-3rd Quarter)</a></li>
+</ul>
+
+<div id="tab1Div" class="tabcontent" style="display:block;">
+    <div><a href="https://data.humdata.org/dataset/philippines-pre-disaster-indicators" class="downloadDataLink">Download Data</a></div>
+    <iframe src="https://public.tableau.com/views/Pre-disasterIndicatorsDashboard/Dashboard1?:embed=y&amp;:showVizHome=no&amp;:display_count=y&amp;:display_static_image=y&amp;:bootstrapWhenNotified=false" frameborder="0" width="1200" height="890"></iframe>
+</div>
+
+<div id="tab2Div" class="tabcontent">
+    <div><a href="https://data.humdata.org/dataset/philippines-mindanao-3w-sept-2016" class="downloadDataLink">Download Data</a></div>
+    <iframe src="https://public.tableau.com/views/2016Mindanao3W2nd-3rdQuarter/Dashboard1?:embed=y&amp;:showVizHome=no&amp;:display_count=y&amp;:display_static_image=y&amp;:bootstrapWhenNotified=false" frameborder="0" width="1200" height="890"></iframe>
+</div>
+
+
+</body>
+</html>

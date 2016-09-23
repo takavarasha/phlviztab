@@ -1,0 +1,60 @@
+/* Style the list */
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
+    font-family: 'Gotham-Bold', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 0.03em;
+    color: #888888;
+    border: none;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {background-color: #ddd;}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {background-color: #ccc;}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.downloadDataLink {
+    background-position: 0px 0px;
+    box-sizing: border-box;
+    color: rgb(2, 107, 181);
+    text-decoration: none;
+    text-size-adjust: 100%;
+    column-rule-color: rgb(2, 107, 181);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border: 0px none rgb(2, 107, 181);
+    font: normal normal normal normal 12px / 18px "Source Sans Pro", sans-serif;
+    outline: rgb(2, 107, 181) none 0px;
+}
+
